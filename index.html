@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+        <style>
+            body {
+                font-family: Arial,sans-serif;
+                background: linear-gradient(to right, #74ebd5, #ACB6E5);
+                padding: 40px;
+                max-width: 600px;
+                margin: 0 auto;
+                min-height: 100vh;
+            }
+            img {
+                width: 150px; 
+                height: 150px;
+                border-radius: 50%;
+                float: left;
+                margin-right: 15px; 
+                transition: 0.3s
+            }
+            img:hover {
+                transform: scale(1.1);
+            }
+            .username {
+                color: blue;
+                font-weight: bold;
+            }
+            button{
+                background: #1a4d8f;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 8px;
+                cursor: pointer;
+                margin-top: 15px;
+                font-size: 16px;
+            }
+            button: hover {
+                background: #0d3a6b;
+                transform: translateY(-2px);
+            }
+        </style>
+    </head>
+    <body>
+        <img src="image/Manus.jpg" alt="This is my Island" class="img">
+        <h2>Hello!</h2>
+        <p>Welcome to my Profile! My name is <span class="username">Cholai</span> From Manus Island PNG"</p>
+        <a href="https://en.wikipedia.org/wiki/Manus_Island" target=blank">
+        </a>
+    </body>
+</html>
