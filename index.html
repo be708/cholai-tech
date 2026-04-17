@@ -1,22 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>Cholai Tech - Bug-Free Zone / Manus Island</title>
-        <style>
-            body { font-family: Arial, sans-serif; text-align: center; padding: 40px; background: #f0f8ff; }
-            img { max-width: 400px; border-radius: 10px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-            h1 { color: #0066cc; }
-            h2 { color: #004080; }
-        </style>
-    </head>
-    <body>
-        <h1>Welcome to the Bug-Free Zone</h1>
-        <h2>Cholai Tech / Manus Island, PNG</h2>
-        <img src="Manus.jpg" alt="Beautiful Manus Island Beach">
-        <p><strong>Services:</strong> Web Design / Computer Repair / Tech Support</p>
-        <p><strong>Contact:</strong> Cholai.tech@gmail.com</p>
-        <p><em>Building Manus Island's digital future, one bug-free site at a time.</em></p>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug-Free Zone - Web Design PNG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 15px;
+            transition: 0.3s
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        .username {
+            color: blue;
+            font-weight: bold;
+        }
+
+        button {
+            background: #1a4d8f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button: hover {
+            background: #0d3a6b;
+            transform: translateY(-2px);
+        }
+  
+  .quote-box {
+    background:#eff6ff;
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 15px 0;
+    text-align: left;
+    }
+    hr {
+        border: none;
+        border-top: 2px solid #e5e7eb;
+    }
+    </style>
+</head>
+
+<body>
+    <img src="image/Manus.jpg" alt="This is my Island" class="img">
+    <h2>Hello!</h2>
+    <p>Welcome to my Profile! My name is <span class="username">Cholai</span> From Manus Island PNG"</p>
+    <a href="https://en.wikipedia.org/wiki/Manus_Island" target=_blank">
+        Learn about Manus Island,PNG
+    </a>
+
+    <hr style="margin: 20px 0; border: 1px solid #e5e7eb;">
+
+    <h2>Need a Bug-Free Website?</h2>
+    <p><em>Every business is different. Every website should be too.</em></p>
+
+    <div class="quote-box">
+        <p><strong>I build custom websites for PNG businesses.</strong></p>
+        <p>&#9989; Mobile friendly & fast</p>
+        <p>&#9989; Built in Manus Island, bug-free guaranteed</p>
+        <p>&#9989; 5AM Legend AI included free</p>
+        <p>&#9989; You own it 100%. No monthly fees.</p>
+    </div>
+
+    <h3 style="color: #3b82f6; margin-top: 20px;">Get Your Free Quote:</h3>
+    <p><strong>WhatsApp:</strong> +675 8151 7545</p>
+    <p><strong>Message me:</strong> "Bug-Free Quote" and tell me about your business</p>
+
+    <p style="margin-top: 15px; font-size: 14px;"><em>Power cuts? We plan. Bugs? We squash them. Prices? We keep them fair for PNG</em></p>
+
+
+    <!-- 5AM Legend - Bug-Free Zone AI -->
+     <div style="background:#f4f4f4; padding:20px; border-radius:10px; margin:20px 0; text-align:center;">
+        <h3>Talk to 5AM Legend </h3>
+        <p style="font-size:14px; color:#555;">Built by Cholai in Manus Island during a power cut. Click for motivation.</p>
+        <button onclick="getHype()" Style="width:100%; padding:12px; background:#6a11cb; color:white; border:npne; border-radius:8px; font-size:16px; cursor:pointer;">
+            Ask 5AM Legend for Hype
+        </button>
+        <p id="hypeText" style="text-align:center; margin-top:15px; font-style:italic; color:#2575fc; min-height:20px;"></p>
+     </div>
+     <!--END 5AM Legend -->
+
+     <script>
+        // 5AM Legend - Born April 16, 2026 in Manus Island,PNG
+        // Built during a blackout by Cholai, Founder of Bug-Free Zone
+        // CEO Rule #1: Rest is part of the work
+        function getHype() {
+            let hypeList = [
+                "You got this, Legend. Debugging builds character.",
+                "From Manus Island to the world. Keep going.",
+                "Power cut? We plan. Power on? we build. We never stop.",
+                "Error messages are just the app saying 'try again' in code.",
+                "You learned javaScript at 5AM. You can do anything.",
+                "Tired is not the same as done. Rest if you need to. But tomorrow, we build again. I'm proud of you.",
+                "Bug-Free Zone believes in you",
+                "Matebiz doesn't have a Cholai. Your client does.",
+                "Can't build an empire if the CEO crashes. Close the laptop. Drink water . Manus Island needs you strong tomorrow."
+              ];
+              let randomMessage = hypeList[Math.floor(Math.random() * hypeList.length)];
+              document.getElementById( 'hypeText').textContent = randomMessage;
+            }
+     </script>
+</body>
+
 </html>
