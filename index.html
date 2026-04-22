@@ -1,127 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bug-Free Zone - Web Design PNG</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #0f4c75, #3282b8);
-            padding: 40px;
-            max-width: 600px;
-            margin: 0 auto;
-            min-height: 100vh;
-        }
-
-        img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            float: left;
-            margin-right: 15px;
-            transition: 0.3s
-        }
-
-        img:hover {
-            transform: scale(1.1);
-        }
-
-        .username {
-            color: blue;
-            font-weight: bold;
-        }
-
-        button {
-            background: #1a4d8f;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 15px;
-            font-size: 16px;
-        }
-
-        button: hover {
-            background: #0d3a6b;
-            transform: translateY(-2px);
-        }
-  
-  .quote-box {
-    background:#eff6ff;
-    border-left: 4px solid #3b82f6;
-    border-radius: 8px;
-    padding: 15px 0;
-    text-align: left;
-    }
-    hr {
-        border: none;
-        border-top: 2px solid #e5e7eb;
-    }
-    </style>
-</head>
-
-<body>
-    <img src="Manus.jpg" alt="This is my Island" class="img">
-    <h2>Hello!</h2>
-    <p>Welcome to my Profile! My name is <span class="username">Cholai</span> From Manus Island PNG"</p>
-    <a href="https://en.wikipedia.org/wiki/Manus_Island" target=_blank">
-        Learn about Manus Island,PNG
-    </a>
-
-    <hr style="margin: 20px 0; border: 1px solid #e5e7eb;">
-
-    <h2>Need a Bug-Free Website?</h2>
-    <p><em>Every business is different. Every website should be too.</em></p>
-
-    <div class="quote-box">
-        <p><strong>I build custom websites for PNG businesses.</strong></p>
-        <p>&#9989; Mobile friendly & fast</p>
-        <p>&#9989; Built in Manus Island, bug-free guaranteed</p>
-        <p>&#9989; 5AM Legend AI included free</p>
-        <p>&#9989; You own it 100%. No monthly fees.</p>
-    </div>
-
-    <h3 style="color: #3b82f6; margin-top: 20px;">Get Your Free Quote:</h3>
-    <p><strong>WhatsApp:</strong> +675 8151 7545</p>
-    <p><strong>Message me:</strong> "Bug-Free Quote" and tell me about your business</p>
-
-    <p style="margin-top: 15px; font-size: 14px;"><em>Power cuts? We plan. Bugs? We squash them. Prices? We keep them fair for PNG</em></p>
-
-
-    <!-- 5AM Legend - Bug-Free Zone AI -->
-     <div style="background:#f4f4f4; padding:20px; border-radius:10px; margin:20px 0; text-align:center;">
-        <h3>Talk to 5AM Legend </h3>
-        <p style="font-size:14px; color:#555;">Built by Cholai in Manus Island during a power cut. Click for motivation.</p>
-        <button onclick="getHype()" Style="width:100%; padding:12px; background:#6a11cb; color:white; border:npne; border-radius:8px; font-size:16px; cursor:pointer;">
-            Ask 5AM Legend for Hype
-        </button>
-        <p id="hypeText" style="text-align:center; margin-top:15px; font-style:italic; color:#2575fc; min-height:20px;"></p>
-     </div>
-     <!--END 5AM Legend -->
-
-     <script>
-        // 5AM Legend - Born April 16, 2026 in Manus Island,PNG
-        // Built during a blackout by Cholai, Founder of Bug-Free Zone
-        // CEO Rule #1: Rest is part of the work
-        function getHype() {
-            let hypeList = [
-                "You got this, Legend. Debugging builds character.",
-                "From Manus Island to the world. Keep going.",
-                "Power cut? We plan. Power on? we build. We never stop.",
-                "Error messages are just the app saying 'try again' in code.",
-                "You learned javaScript at 5AM. You can do anything.",
-                "Tired is not the same as done. Rest if you need to. But tomorrow, we build again. I'm proud of you.",
-                "Bug-Free Zone believes in you",
-                "Matebiz doesn't have a Cholai. Your client does.",
-                "Can't build an empire if the CEO crashes. Close the laptop. Drink water . Manus Island needs you strong tomorrow."
-              ];
-              let randomMessage = hypeList[Math.floor(Math.random() * hypeList.length)];
-              document.getElementById( 'hypeText').textContent = randomMessage;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bug-Free Zone-Web Design PNG/AI Powered</title>
+        <style>
+            body {
+                font-family: Arial,sans-serif;
+                background: linear-gradient(to right,#74ebd5, #ACB6E5);
             }
-     </script>
-</body>
+h1 {
+    color: #2a2a72;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.card {
+  background: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
 
-</html>
+}
+.button {
+    background: #0070f3;
+    color:white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.marquee {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+    <div style="text-align: center; padding: 40px 20px 20px; background: #f8f9fa;">
+        <img src="image/Manus.jpg" alt="This is my Island" style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #007BFF; margin-bottom: 15px;">
+        <h2 style="margin: 10px 0; color: #333;">Hello! Welcome to Cholai Tech Website!</h2>
+        <p style="font-size: 18px; color: #555; margin: 5px 0;">My name is <strong>Cholai</strong> From <strong>Manus Island PNG</strong></p>
+        <a href="https://en.wikipedia.org/wiki/Manus_Island" target="_blank" style="color: #007BFF; text-decoration: none;">Learn about Manus Island PNG</a>
+    </div>
+    <marquee class="marquee">PNG's First AI-Powered Web Design Service - We Debug While Others Sleep!</marquee>
+<h1>Bug-Free Zone</h1>
+<div class="card">
+    <h2>PNG's First AI-Powered Web Design Service</h2>
+    <p>Tired of broken websites? We debug line-by-line until your customers see perfection.</p>
+    <p><strong>What you get:</strong></p>
+    <ul>
+        <li>✅ Mobile-friendly design that works on mobile phones</li>
+        <li>✅ WhatsApp chat button for instant customer contact</li>
+        <li>✅ AI assistant that answers customer questions 24/7</li>
+        <li>✅ Bug-free guarantee - we test before you pay</li>
+    </ul>
+
+<p style="text-align: center; margin-top: 30px;">
+    <a href="https://wa.me/67572817573" class="button">
+        Talk to 5AM AI Legend on WhatsApp
+    </a>
+</p>
+<p style="text-align: center; font-size: 14px; color: #666;">
+    No credit card needed. Free consultation. We debug while you sleep.
+</p>
+</div>
+
+ <footer style="text-align: center; margin-top: 50px; color: #888; font-size: 12px;">
+    <p>© 2026 Bug-Free Zone PNG. Built line by line with 5AM AI Legend.</p>
+    <p>Made in Manus Island ❤. We debug while others sleep.</p>
+ </footer>
+
+ </body>
+ </html>
