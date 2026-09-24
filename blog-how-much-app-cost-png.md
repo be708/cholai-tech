@@ -1,13 +1,13 @@
 ---
-title: "How Much Does an App Cost in PNG in 2026? [Lae & POM Prices]"
+title: "How Much Does an App Cost in PNG in 2026?"
 date: 2026-09-24
-description: "Real app development costs in PNG 2026. Android & iOS prices for K1,500, K5,000, K15,000+ apps. Lae, Port Moresby."
+description: "Real app development costs in PNG 2026. Android & iOS prices for K1,500, K5,000, K15,000+ apps."
 canonical_url: https://cholaitech.com/blog-how-much-app-cost-png.html
 ---
 
 # How Much Does an App Cost in PNG in 2026?
 
-Want to build an app in PNG? Here's real pricing from Lae.
+Want to build an app in PNG? Here's real pricing from PNG.
 
 ### K1,500 - K3,000: Simple App
 Your website turned into Android app, push notifications, Play Store upload. For churches, small shops. 3-7 days.
