@@ -20,12 +20,12 @@ Android + iOS, real-time chat like CholaiChat, maps, driver tracking, 800+ Tok P
 
 **What affects price?**
 - Android only = 40% cheaper (most PNG users Android)
-- Offline mode +K1,000 but must-have for Morobe
+- Offline mode +K1,000 but must-have for Manus
 - Payment gateway (BSP, Kina) +K800
 - Play Store $25 one-time
 
-At Cholai Tech Lae: 3 months free hosting + 1 year bug fix free.
+At Cholai Tech Manus: 3 months free hosting + 1 year bug fix free.
 
 Budget guide: Small hustle K1,500 / SME ready to earn K5K-8K / Big company K15K+
 
-WhatsApp us via cholaitech.com contact page. Based in Lae, serving all PNG.
+WhatsApp us via cholaitech.com contact page. Based in Manus, serving all PNG.
