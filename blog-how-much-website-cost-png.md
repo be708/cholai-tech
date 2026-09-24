@@ -2,7 +2,7 @@
 title: "How Much Does a Website Cost in PNG in 2026?"
 date: 2026-08-18
 description: "A complete breakdown of website prices in Port Moresby and across PNG. See what you get for K500, K2000, and K5000+"
-canonical_url:https://cholaitech.com/blog-how-much-website-cost-png.html
+canonical_url: https://cholaitech.com/blog-how-much-website-cost-png.html
 ---
 
 # How Much Does a Website Cost in PNG in 2026?
